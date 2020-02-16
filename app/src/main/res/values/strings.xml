@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_readings">Readings</string>
+
+    <string name="post_data">Post data</string>
+    <string name="clear_data">Clear data</string>
+    <string name="posting_data">Posting data…</string>
+
+    <string-array name="filters_sensor_names">
+        <item>No Filter</item>
+        <item>Accelerometer</item>
+        <item>Screen Touch</item>
+    </string-array>
+
+</resources>

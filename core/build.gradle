@@ -1,0 +1,15 @@
+apply plugin: "java-library"
+apply plugin: "kotlin"
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation mainDependencies.coroutines
+
+    testImplementation testDependencies.assertJ
+    testImplementation testDependencies.mockitoKotlin
+    testImplementation testDependencies.junit
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
